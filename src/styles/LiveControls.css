@@ -1,0 +1,57 @@
+.live-controls {
+    position: fixed;
+    left: 12px;
+    bottom: 12px;
+    width: 240px;
+    background: rgba(22, 24, 28, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    color: #e8e8e8;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(3px);
+    z-index: 101;
+}
+
+.live-controls .lc-title {
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    color: #9cd2ff;
+}
+
+.live-controls label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    margin: 6px 0;
+}
+
+.live-controls input,
+.live-controls select {
+    flex: 0 0 90px;
+    background: #111317;
+    color: #e8e8e8;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 4px 6px;
+    outline: none;
+}
+
+.live-controls .lc-apply {
+    margin-top: 8px;
+    width: 100%;
+    background: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.live-controls .lc-apply:hover {
+    background: #1565c0;
+}
